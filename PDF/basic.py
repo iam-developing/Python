@@ -1,7 +1,7 @@
 from fpdf import FPDF
 
 # Author: @NavonilDas
-
+# Simple test
 
 pdf = FPDF()
 # Set Author Name of the PDF
@@ -32,3 +32,4 @@ pdf.ellipse(10, 135, 50, 50, 'F')
 
 # Save the Output at Local File
 pdf.output('output.pdf', 'F')
+print("hello test")
